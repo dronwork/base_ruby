@@ -7,7 +7,7 @@ class QuadEquation
   c = gets.to_f
 
   def self.count_func(a, b, c)
-  d = b**2 - 4 * a * c
+    d = b**2 - 4 * a * c
   if d < 0
     puts "Discriminant: #{d}, no roots"
   elsif d == 0
