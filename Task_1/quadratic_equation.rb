@@ -1,5 +1,4 @@
 class QuadEquation
-
   puts "Enter coefficient а:"
   a = gets.to_f
   puts "Enter coefficient b:"

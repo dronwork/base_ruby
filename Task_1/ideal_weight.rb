@@ -1,7 +1,7 @@
 class IdealWeight
   FORMULA = 110 # Constant value
 
-  puts "Hello, please enter your Name and your Height:"
+  puts 'Hello, please enter your Name and your Height:'
   your_name = gets.chomp.to_s
   your_height = gets.to_i
 
@@ -16,4 +16,3 @@ class IdealWeight
 
   IdealWeight.count_weight(your_name, your_height) # Call static method
 end
-
