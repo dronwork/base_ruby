@@ -13,6 +13,5 @@ if year != 2000 && ((year % 4).zero? && year % 100 != 0 || (year % 400).zero?)
   months[1] += 1
 end
 
-(1...month).each{ |i| current_day += months[i] }
-
-puts "Current ordinal number of the day - #{current_day}"
+result = months.take(month-1).sum + current_day
+puts "Current ordinal number of the day - #{result}"
